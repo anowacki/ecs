@@ -1,0 +1,26 @@
+1 1 1302.e9
+1 2  276.e9
+1 3  276.e9
+1 4    0.
+1 5    0.
+1 6    0.
+2 2 1302.e9
+2 3  276.e9
+2 4    0.
+2 5    0.
+2 6    0.
+3 3 1302.e9
+3 4    0.
+3 5    0.
+3 6    0.
+4 4  190.e9
+4 5    0.
+4 6    0.
+5 5  190.e9
+5 6    0.
+6 6  190.e9
+7 7 5426.
+# Long et al., PEPI, 2006
+# Deformation expts at 1473 K, gamma=4.2, grains 5um,
+# using theoretical single-xtal ECs of Karki et al., 1997.
+# rho taken from AK135

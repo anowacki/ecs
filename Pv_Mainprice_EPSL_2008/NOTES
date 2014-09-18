@@ -1,0 +1,15 @@
+Notes on Mainprice et al. ECs
+=============================
+
+The constants are for simple shear.
+
+The axes are arranged thus:
+
+x1 // Z
+x2 // X
+x3 // Y
+
+X, Y and Z are principle finite strain axes (X>Y>Z).
+
+Hence, shear is approximately in the X direction along
+the Z plane.

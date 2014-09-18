@@ -1,0 +1,35 @@
+1 1   233.40e9
+1 2    91.30e9
+1 3    91.00e9
+1 4    -0.10e9
+1 5     0.70e9
+1 6     0.60e9
+2 2   231.40e9
+2 3    89.20e9
+2 4     0.80e9
+2 5     0.10e9
+2 6     0.30e9
+3 3   231.70e9
+3 4    -0.10e9
+3 5     3.00e9
+3 6     0.00e9
+4 4    71.00e9
+4 5     0.10e9
+4 6     0.80e9
+5 5    70.30e9
+5 6     0.20e9
+6 6    69.70e9
+7 7  3400.00
+# Ohuchi et al. (2011).  High pressure and temperature fabric transitions in olivine and variations in upper mantle seismic anisotropy.  EPSL, 304, 55-63. doi:10.1016/j.epsl.2011.01.015
+# San Carlos olivine (Fo90)
+# P = 7.6 GPa
+# T = 1673 K
+# Shear strain: 0.8 +/-0.1
+# Shear strain rate: 3.4 (+/- 0.5) x 10^-5 s^-1
+# Dislocation density: 2.78 (+/- 0.42) x 10^12 m^-2
+# Stress (s1-s3): 248 (+/- 27) MPa
+# Mean grain size: 5.4 um
+# Water content (C_{OH}): <40 ppm H/Si
+# Piston material: Alumina
+# x1 = shear direction, x3 = normal to shear plane.
+# Rotate by a=90, b=180, c=90 to plot in same orientation as their Fig. 6.

@@ -1,0 +1,314 @@
+Delivered-To: andy.nowacki@bristol.ac.uk
+Received: by 10.70.29.226 with SMTP id n2csp71006pdh;
+        Mon, 28 Oct 2013 04:42:43 -0700 (PDT)
+X-Received: by 10.15.111.202 with SMTP id cj50mr2031945eeb.71.1382960562736;
+        Mon, 28 Oct 2013 04:42:42 -0700 (PDT)
+Return-Path: <glxjw@bristol.ac.uk>
+Received: from psmtp.com (eu1sys200amx112.postini.com [207.126.144.181])
+        by mx.google.com with SMTP id z46si14363662eep.91.2013.10.28.04.42.41
+        for <andy.nowacki@bristol.ac.uk>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 28 Oct 2013 04:42:42 -0700 (PDT)
+Received-SPF: neutral (google.com: 207.126.144.143 is neither permitted nor denied by best guess record for domain of glxjw@bristol.ac.uk) client-ip=207.126.144.143;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 207.126.144.143 is neither permitted nor denied by best guess record for domain of glxjw@bristol.ac.uk) smtp.mail=glxjw@bristol.ac.uk
+Received: from eu1sys200aog117.obsmtp.com ([207.126.144.143]) (using TLSv1) by eu1sys200amx112.postini.com ([207.126.147.10]) with SMTP;
+	Mon, 28 Oct 2013 11:42:42 GMT
+Received: from mail-we0-f176.google.com ([74.125.82.176]) (using TLSv1) by eu1sys200aob117.postini.com ([207.126.147.11]) with SMTP
+	ID DSNKUm5Nsd8AWdHqQ0S7GZgMlS9Ysevctci+@postini.com; Mon, 28 Oct 2013 11:42:42 UTC
+Received: by mail-we0-f176.google.com with SMTP id w62so6359782wes.21
+        for <andy.nowacki@bristol.ac.uk>; Mon, 28 Oct 2013 04:42:41 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:sender:from:content-type:subject:date:references
+         :to:message-id:mime-version;
+        bh=ZdPq0o6fOIUs7cxW44CFJn8LgEVrPWMO2vVBEuJUNzc=;
+        b=m3ZLj2/RCOOXwsLu6uVPX5AzQHR5NUsgasNlt2ld+55kU39FPqmOJLIqJwNZVNGCh8
+         0zqcbSYXC2USrlzTlocDA6jm0ibarOV4UZYS1Y6LP/x4CgDgiQP4iYN4mPuO8tVQdH+l
+         dFJESrg1CrepLGkk3UjlVyHWsZvcQuNt5X2zOIh4zXlpZ2kkYQNA4DpkS8bwrSfbLsBt
+         d3a9+drTUVM+ITbTitS16h9Eg0HoGKuUQjzYBRyc44+yGohgrzY3MYXkxze9BreRldow
+         QgnVeNolITdqb1xrnm7tP1tDEcokd2WYenvH4Wgt3iRTWSg6DEoVgkcpK5zCFluL6Hox
+         r/TQ==
+X-Gm-Message-State: ALoCoQmkmFlj9RzI6Y7XDx1q8JgIO0tRRepQBU46Q2QWjvPv6p+B+Tejc4wdlsWaVOlX6/ZgKYK4QKqeBLuDgTbuWssJbli5aN15k3JLdO/3+h/BICSj7ca+8CpeY8xzt+FvAiBj4NVY/UEzqZKmpHGu9KLJfEy0PIjHD8r3E87H4m0ZrHf7MXQ=
+X-Received: by 10.180.208.4 with SMTP id ma4mr4245717wic.35.1382960561704;
+        Mon, 28 Oct 2013 04:42:41 -0700 (PDT)
+X-Received: by 10.180.208.4 with SMTP id ma4mr4245708wic.35.1382960561603;
+        Mon, 28 Oct 2013 04:42:41 -0700 (PDT)
+Return-Path: <glxjw@bristol.ac.uk>
+Received: from gly-macpro05.gly.bris.ac.uk (gly-macpro05.gly.bris.ac.uk. [137.222.20.247])
+        by mx.google.com with ESMTPSA id by10sm33596597wib.10.2013.10.28.04.42.40
+        for <andy.nowacki@bristol.ac.uk>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 28 Oct 2013 04:42:40 -0700 (PDT)
+Sender: James Wookey <glxjw@bristol.ac.uk>
+From: James Wookey <J.Wookey@bristol.ac.uk>
+Content-Type: multipart/mixed; boundary="Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592"
+Subject: Fwd: Elastic constants
+Date: Mon, 28 Oct 2013 11:42:39 +0000
+References: <FEB8F02E-68B0-45DD-9AE9-E50877104C6F@gm.univ-montp2.fr>
+To: Andy Nowacki <andy.nowacki@bristol.ac.uk>
+Message-Id: <1BEDB9CA-EDD7-4D11-8710-9EAB5F899348@bristol.ac.uk>
+Mime-Version: 1.0 (Apple Message framework v1283)
+X-Mailer: Apple Mail (2.1283)
+X-pstn-neptune: 0/0/0.00/0
+X-pstn-levels: (S:99.90000/99.90000 CV:99.9000 FC:95.5390 LC:95.5390 R:95.9108 P:95.9108 M:97.0282 C:98.6951 )
+X-pstn-dkim: 0 skipped:not-enabled
+X-pstn-settings: 3 (1.0000:0.0100) s cv gt4 GT3 gt2 gt1 r p m c
+X-pstn-addresses: from <J.Wookey@bristol.ac.uk> [db-null]
+X-pstn-nxpr: disp=neutral, envrcpt=andy.nowacki@bristol.ac.uk
+X-pstn-nxp: bodyHash=9a32cc5a9b0994d0edd427169095ff716258f2cb, headerHash=592cc6f4a28fbff1b26a12658a1702157c3f3717, keyName=4, rcptHash=ef7849d54324e0b7e638336cb9d388f9d0b4a854, sourceip=207.126.144.143, version=1
+
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=iso-8859-1
+
+Here you go.
+
+> You might need the density !
+>=20
+> Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 1.73 P=3D30 GPa
+> Elastic tensor at P=3D38GPa T=3D1500K density=3D4.5762 g/cm3 Mainprice =
+Fig.7 EPSL
+>=20
+> Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 1.73 P=3D30 GPa
+> Elastic tensor at P=3D38GPa T=3D3500K density=3D4.3846 g/cm3 Mainprice =
+Fig.7 EPSL
+>=20
+>=20
+> Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 1.73 P=3D100 GPa
+> Elastic tensor at P=3D88 GPaT=3D1500K density=3D5.031 g/cm3 Mainprice =
+Fig.8 EPSL
+>=20
+> Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 1.73 P=3D100 GPa
+> Elastic tensor at P=3D88 GPaT=3D3500K density=3D4.886 g/cm3 Mainprice =
+Fig.8 EPSL
+>=20
+> all the best Dave
+
+Begin forwarded message:
+
+> From: David Mainprice <David.Mainprice@gm.univ-montp2.fr>
+> Subject: Re: Elastic constants
+> Date: 26 June 2008 16:01:33 GMT+01:00
+> To: James Wookey <j.wookey@bristol.ac.uk>
+>=20
+> Dear James,
+>=20
+> Here they are in unix/mac x format. 1000=3D Equivent Strain of 1 =
+(Shear Strain of 1.73) 2000=3D Equivent Strain of 2 (Shear Strain =
+=3D3.46). The details are mark in the files Cij in Megabars
+> The figures 7 and 8 are for equivent Strain of 1 (Shear Strain of =
+1.73), the higher strain figures were not published.
+>=20
+> all the best David
+>=20
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Disposition: attachment;
+	filename=Fig8_1000_EEQ1_P88_T3500K_Mb.txt
+Content-Type: text/plain;
+	x-unix-mode=0644;
+	name="Fig8_1000_EEQ1_P88_T3500K_Mb.txt"
+Content-Transfer-Encoding: quoted-printable
+
+Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 1.73 P=3D100 GPa     =
+                                              =20
+Elastic tensor at P=3D88 GPaT=3D3500K Mainprice Fig.8 EPSL row 2         =
+                                               =20
+  4.4990  4.6740  6.4920 90.0000 90.0000 90.00001
+  7.9839  3.5901  3.4549  0.0016 -0.0005  0.0141
+  3.5901  8.2743  3.6759  0.0001  0.0019  0.0111
+  3.4549  3.6759  8.0819  0.0030 -0.0020  0.0212
+  0.0016  0.0001  0.0030  2.2566 -0.0035 -0.0020
+ -0.0005  0.0019 -0.0020 -0.0035  2.2899  0.0004
+  0.0141  0.0111  0.0212 -0.0020  0.0004  2.2496
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Disposition: attachment;
+	filename=Fig8_1000_EEQ1_P88_T1500K_Mb.txt
+Content-Type: text/plain;
+	x-unix-mode=0644;
+	name="Fig8_1000_EEQ1_P88_T1500K_Mb.txt"
+Content-Transfer-Encoding: quoted-printable
+
+Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 1.73 P=3D100 GPa     =
+                                              =20
+Elastic tensor at P=3D88 GPaT=3D1500K Mainprice Fig.8 EPSL row 1         =
+                                                 =20
+  4.4350  4.6550  6.4200 90.0000 90.0000 90.00001
+  8.9802  3.8727  3.6716  0.0018 -0.0014  0.0432
+  3.8727  9.5455  3.9438  0.0071  0.0056  0.0031
+  3.6716  3.9438  9.2042 -0.0008 -0.0045  0.0296
+  0.0018  0.0071 -0.0008  2.7460  0.0056  0.0001
+ -0.0014  0.0056 -0.0045  0.0056  2.7171  0.0008
+  0.0432  0.0031  0.0296  0.0001  0.0008  2.7464
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Disposition: attachment;
+	filename=Fig8_2000_EEQ1_P88_T1500K_Mb.txt
+Content-Type: text/plain;
+	x-unix-mode=0644;
+	name="Fig8_2000_EEQ1_P88_T1500K_Mb.txt"
+Content-Transfer-Encoding: quoted-printable
+
+Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 3.46 P=3D100 GPa     =
+                                              =20
+Elastic tensor at P=3D88 GPaT=3D1500K Mainprice Fig.8 EPSL (not =
+published)                                                        =20
+  4.4350  4.6550  6.4200 90.0000 90.0000 90.00001
+  9.1604  3.8255  3.6987  0.0009  0.0042  0.1939
+  3.8255  9.5831  3.9048  0.0040  0.0080  0.0785
+  3.6987  3.9048  9.1323  0.0013 -0.0023  0.1692
+  0.0009  0.0040  0.0013  2.7478  0.0218 -0.0026
+  0.0042  0.0080 -0.0023  0.0218  2.7292  0.0048
+  0.1939  0.0785  0.1692 -0.0026  0.0048  2.6681
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Disposition: attachment;
+	filename=Fig8_2000_EEQ1_P88_T3500K_Mb.txt
+Content-Type: text/plain;
+	x-unix-mode=0644;
+	name="Fig8_2000_EEQ1_P88_T3500K_Mb.txt"
+Content-Transfer-Encoding: quoted-printable
+
+Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 3.46 P=3D100 GPa     =
+                                              =20
+Elastic tensor at P=3D88 GPaT=3D3500K Mainprice Fig.8 EPSL (not =
+published)                                                        =20
+  4.4990  4.6740  6.4920 90.0000 90.0000 90.00001
+  8.0482  3.6038  3.4723 -0.0025 -0.0010  0.0670
+  3.6038  8.2606  3.6439  0.0024  0.0052  0.0702
+  3.4723  3.6439  8.0446  0.0040  0.0010  0.1326
+ -0.0025  0.0024  0.0040  2.2687 -0.0175 -0.0034
+ -0.0010  0.0052  0.0010 -0.0175  2.2929  0.0000
+  0.0670  0.0702  0.1326 -0.0034  0.0000  2.2314
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=iso-8859-1
+
+> 
+> 
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Disposition: attachment;
+	filename=Fig7_2000_38GPa3500K_Mb.txt
+Content-Type: text/plain;
+	x-unix-mode=0644;
+	name="Fig7_2000_38GPa3500K_Mb.txt"
+Content-Transfer-Encoding: quoted-printable
+
+Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 3.46 P=3D30 GPa      =
+                                             =20
+Elastic tensor at P=3D38GPa T=3D3500K Mainprice Fig.7 EPSL (not =
+published)                                                    =20
+  4.7230  4.8360  6.7470 90.0000 90.0000 90.00001
+  5.5452  2.2223  2.1648 -0.0013 -0.0009  0.0146
+  2.2223  5.5663  2.2691  0.0005  0.0001  0.0088
+  2.1648  2.2691  5.5346  0.0036  0.0014  0.0537
+ -0.0013  0.0005  0.0036  1.6825  0.0032 -0.0033
+ -0.0009  0.0001  0.0014  0.0032  1.6779 -0.0012
+  0.0146  0.0088  0.0537 -0.0033 -0.0012  1.6200
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Disposition: attachment;
+	filename=Fig7_2000_38GPa1500K_Mb.txt
+Content-Type: text/plain;
+	x-unix-mode=0644;
+	name="Fig7_2000_38GPa1500K_Mb.txt"
+Content-Transfer-Encoding: quoted-printable
+
+Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 3.46 P=3D30 GPa      =
+                                             =20
+Elastic tensor at P=3D38GPa T=3D1500K Mainprice Fig.7 EPSL (not =
+published)
+  4.6280  4.7920  6.6580 90.0000 90.0000 90.00001
+  6.5891  2.4033  2.3315 -0.0009  0.0010  0.1051
+  2.4033  6.8744  2.4508  0.0033  0.0010  0.0749
+  2.3315  2.4508  6.6168  0.0051  0.0021  0.0605
+ -0.0009  0.0033  0.0051  2.1914  0.0451 -0.0030
+  0.0010  0.0010  0.0021  0.0451  2.1202  0.0010
+  0.1051  0.0749  0.0605 -0.0030  0.0010  2.1020
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Disposition: attachment;
+	filename=Fig7_1000_38GPa3500K_Mb.txt
+Content-Type: text/plain;
+	x-unix-mode=0644;
+	name="Fig7_1000_38GPa3500K_Mb.txt"
+Content-Transfer-Encoding: quoted-printable
+
+Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 1.73 P=3D30 GPa      =
+                                             =20
+Elastic tensor at P=3D38GPa T=3D3500K Mainprice Fig.7 EPSL row 2
+  4.7230  4.8360  6.7470 90.0000 90.0000 90.00001
+  5.5212  2.2223  2.1702  0.0013  0.0001  0.0086
+  2.2223  5.5804  2.2638 -0.0020  0.0007 -0.0014
+  2.1702  2.2638  5.5430  0.0022 -0.0015  0.0069
+  0.0013 -0.0020  0.0022  1.6627 -0.0004 -0.0011
+  0.0001  0.0007 -0.0015 -0.0004  1.6753  0.0009
+  0.0086 -0.0014  0.0069 -0.0011  0.0009  1.6416
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Disposition: attachment;
+	filename=Fig7_1000_38GPa1500K_Mb.txt
+Content-Type: text/plain;
+	x-unix-mode=0644;
+	name="Fig7_1000_38GPa1500K_Mb.txt"
+Content-Transfer-Encoding: quoted-printable
+
+Polycrystalline Mg-Perovskite CPO VPSC Shear Strain 1.73 P=3D30 GPa      =
+                                             =20
+Elastic tensor at P=3D38GPa T=3D1500K Mainprice Fig.7 EPSL row 1
+  4.6280  4.7920  6.6580 90.0000 90.0000 90.00001
+  6.5111  2.4106  2.3399  0.0015 -0.0004  0.0259
+  2.4106  6.8850  2.4458  0.0004  0.0018  0.0084
+  2.3399  2.4458  6.6520  0.0027 -0.0019  0.0079
+  0.0015  0.0004  0.0027  2.1802  0.0075 -0.0010
+ -0.0004  0.0018 -0.0019  0.0075  2.1140  0.0020
+  0.0259  0.0084  0.0079 -0.0010  0.0020  2.1317
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=iso-8859-1
+
+>=20
+>=20
+>=20
+> Le 26 juin 08 =E0 13:20, James Wookey a =E9crit :
+>=20
+>> Dear David,
+>>=20
+>> Hope things are going well with you! I was catching up on my tables =
+of contents emails recently, and I noticed your paper in EPSL on =
+perovskite deformation. As you know, some of the things I have been =
+doing recently have involved fitting elastic tensors to seismic data. I =
+was wondering, therefore, whether you would mind sending me the elastic =
+constants for the deformed material (i.e., the ones that go into Figs 7 =
+and 8)? I would, of course, reference the paper in anything I use them =
+for!
+>>=20
+>> Best wishes,
+>>=20
+>> James
+>>=20
+>> : James Wookey
+>> : Department of Earth Sciences
+>> : University of Bristol
+>> : Wills Building, Queens Road
+>> : Bristol BS8 1RJ, U.K.
+>> : Tel +44 (0)117 954 5496
+>> : Fax +44 (0)117 925 3385
+>> : j.wookey@bristol.ac.uk
+>> : http://www1.gly.bris.ac.uk/~wookey
+>>=20
+>>=20
+>>=20
+>=20
+
+
+--Apple-Mail=_F03A5713-0777-46B3-9CAF-57F5F43B1592--

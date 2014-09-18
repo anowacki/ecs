@@ -1,0 +1,7 @@
+*.eps
+*.ps
+*.pdf
+._*
+.DS_Store
+.gmt*
+.ematrix6_control

@@ -1,0 +1,27 @@
+Example elastic constants for a variety of radial anisotropy parameters
+=======================================================================
+Andy Nowacki, University of Bristol
+<andy.nowacki@bristol.ac.uk>
+
+= About =
+
+The files in this directory were produced using the Voigt expressions
+for average velocity given the Love parameters for radial anisotropy.
+A short code in Fortran 90 was used to convert from parameters into
+elasticity.
+
+
+= File format =
+
+The files contain 21 elastic constants and density on one line like this:
+    c11 c12 c13 c14 c15 c16 c22 c23 c24 c25 c26 c33 c34 c35 c36 c44 c45 c46 c55 56 c66 rho
+where cij are in Pa, and rho is in kg/m^3 (SI units).
+
+Files are named with the parameters like this:
+    vp[vp]_vs[vs]_rho[rho]_xi[xi]_phi[phi]_eta[eta].ecs
+where [x] is the value of x.
+
+
+= Symmetry =
+
+The files have rotational symmetry about x3.
