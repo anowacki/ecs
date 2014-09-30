@@ -1,0 +1,74 @@
+ECs
+===
+
+Andy Nowacki
+andy.nowacki@bristol.ac.uk
+
+ECs contains elastic constants for materials present in the Earth, taken from
+various publications and transcribed to machine-readable format.
+
+
+Useful tools
+------------
+These elastic constants can be easily manipulated using my Elasticity programs,
+which you can check out using git at:
+	majorite.gly.bris.ac.uk:/geophysics/nowacki/git-repos/Elasticity.git
+They rely on my Fortran codes for dealing with geophysics problems, which are
+at:
+	majorite.gly.bris.ac.uk:/geophysics/nowacki/git-repos/modules_public.git
+
+You can check them out using git like this:
+	$ git clone user@majorite.gly.bris.ac.uk:/geophysics/nowacki/git-repos/Elasticity.git
+
+
+File format
+-----------
+Files are in the .ecs format as read by, for instance, my Fortran 
+(majorite.gly.bris.ac.uk:/geophysics/nowacki/git-repos/modules_public.git), and
+MSAT (http://www1.gly.bris.ac.uk/MSAT/).  These are in the following format:
+	i j Cij
+where i and j are the Voigt matrix elastic tensor representation column and row
+number, and Cij is the corresponding elastic constant in Pa.
+
+When i=j=7, the value is the density, in kg/m^3.
+
+Comments may be made in the files when the first character on the line is a '%'
+or '#' character.  Comments may also be placed after the Cij value (at least
+with my 'anisotropy_ajn' module and codes).
+
+Most files are named according to the following convention:
+	[formula]_[phase]_[pressure]GPa_[temperature]T_[author]_[journal]_[year].ecs
+Some files, however, have terser or incomprehensible names.  Equally, previous
+codes could not cope with reading files with comments, so older .ecs files will
+not have all details in the file as newer ones will.
+
+Executable files
+----------------
+As a primitive way of coping with cases where the elastic constants and density
+can be expressed as a continuous function with pressure and/or temperature
+(i.e., when the derivatives are available), executable shell scripts will
+produce the constants given a P and/or T.  These are named:
+	[formula]_[phase]_xP_xT_[author]_[journal]_[year].ecs
+
+Other shell scripts are present to automatically produce the .ecs files from the
+raw data supplied with publications, or transcriptions of tables in the printed
+versions.
+
+
+Creating .ecs files
+-------------------
+Probably the best way of entering a one-off set of elastic constants is using
+the 'enter-ecs' script, available as part of my elasticity tools. The script
+will ask for the symmetry of the constants and only ask for the unique values
+needed.  If you don't know the density, but do know the unit cell volume and
+the atoms in the unit cell, it will calculate density for you as well.  You can
+then enter as many comment lines as you like to describe the publication,
+experimental details, etc., and the formatting will be ensured to be correct.
+
+
+Plotting .ecs files
+-------------------
+If you have installed my tools, then you can just do
+	$ CIJ_plot file.ecs
+to see a phase velocity surface for Vp and AVs.  Type 'CIJ_plot -h' to see the
+help.
