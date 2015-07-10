@@ -2,7 +2,7 @@ ECs
 ===
 
 Andy Nowacki
-andy.nowacki@bristol.ac.uk
+a.nowacki@leeds.ac.uk
 
 ECs contains elastic constants for materials present in the Earth, taken from
 various publications and transcribed to machine-readable format.
@@ -12,19 +12,19 @@ Useful tools
 ------------
 These elastic constants can be easily manipulated using my Elasticity programs,
 which you can check out using git at:
-	majorite.gly.bris.ac.uk:/geophysics/nowacki/git-repos/Elasticity.git
+	https://github.com/anowacki/elasticity.git
 They rely on my Fortran codes for dealing with geophysics problems, which are
 at:
-	majorite.gly.bris.ac.uk:/geophysics/nowacki/git-repos/modules_public.git
+	https://github.com/anowacki/seismo-fortran.git
 
 You can check them out using git like this:
-	$ git clone user@majorite.gly.bris.ac.uk:/geophysics/nowacki/git-repos/Elasticity.git
+	$ git clone https://github.com/anowacki/elasticity.git
 
 
 File format
 -----------
 Files are in the .ecs format as read by, for instance, my Fortran 
-(majorite.gly.bris.ac.uk:/geophysics/nowacki/git-repos/modules_public.git), and
+(https://github.com/anowacki/seismo-fortran.git), and
 MSAT (http://www1.gly.bris.ac.uk/MSAT/).  These are in the following format:
 	i j Cij
 where i and j are the Voigt matrix elastic tensor representation column and row
@@ -41,6 +41,7 @@ Most files are named according to the following convention:
 Some files, however, have terser or incomprehensible names.  Equally, previous
 codes could not cope with reading files with comments, so older .ecs files will
 not have all details in the file as newer ones will.
+
 
 Executable files
 ----------------
