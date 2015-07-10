@@ -1,0 +1,29 @@
+cat <<-END
+1 1 570.e9
+1 2 34.e9
+1 3 76.e9
+1 4 0.e9
+1 5 0.e9
+1 6 0.e9
+2 2 389.e9
+2 3 93.e9
+2 4 0.e9
+2 5 0.e9
+2 6 0.e9
+3 3 482.e9
+3 4 0.e9
+3 5 0.e9
+3 6 0.e9
+4 4 64.e9
+4 5 0.e9
+4 6 0.e9
+5 5 93.e9
+5 6 0.e9
+6 6 48.e9
+7 7 3951
+
+# First-principles investigation of hydrous post-perovskite
+# Joshua P. Townsend, Jun Tsuchiya, Craig R. Bina and Steven D. Jacobsen.
+# Phys. Earth Planet. Inter. 2015 (244) 42-48
+#
+# Input by nowacki on see3-54.leeds.ac.uk on Fri 10 Jul 2015 11:10:27 BST
