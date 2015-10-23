@@ -1,0 +1,30 @@
+1 1   361.00e9
+1 2    93.00e9
+1 3    94.00e9
+1 4     0.00e9
+1 5     0.00e9
+1 6     0.00e9
+2 2   226.00e9
+2 3    95.00e9
+2 4     0.00e9
+2 5     0.00e9
+2 6     0.00e9
+3 3   260.00e9
+3 4     0.00e9
+3 5     0.00e9
+3 6     0.00e9
+4 4    73.10e9
+4 5     0.00e9
+4 6     0.00e9
+5 5    85.00e9
+5 6     0.00e9
+6 6    90.00e9
+7 7  3482.00
+# Pressure: 6.8 GPa
+# Temperature: 500 K
+# Zhu Mao, Dawei Fan, Jung-Fu Lin, Jing Yang, Sergey N. Tkachev, Kirill Zhuravlev,
+# Vitali B. Prakapenka
+# Elasticity of single-crystal olivine at high pressures and temperatures
+# Earth Planet Sci Lett, 426, 204-215.  doi:doi:10.1016/j.epsl.2015.06.045
+#
+# Input by nowacki on see3-54.leeds.ac.uk on Thu 22 Oct 2015 18:12:24 BST
