@@ -95,7 +95,7 @@ END {
 	}
 	# Produce elastic constants divided by density, and density
 	# NB: Pressure must be in GPa and temperature in K.  We keep everything in
-	# these units until the last minute, where we convert to GPa.
+	# these units until the last minute, where we convert to Pa.
 	rho = rho0p + rhop*P + rhopp*P^2/2 + rhot*(T-300) + rhott*(T-300)^2/2  # kg/m^3
 	for (i=1; i<=6; i++) {
 		for (j=1; j<=6; j++) {
