@@ -1,0 +1,26 @@
+1 1   653.60e9
+1 2   209.20e9
+1 3   245.40e9
+1 4     0.00e9
+1 5     0.00e9
+1 6     0.00e9
+2 2   684.90e9
+2 3   258.20e9
+2 4     0.00e9
+2 5     0.00e9
+2 6     0.00e9
+3 3   715.50e9
+3 4     0.00e9
+3 5     0.00e9
+3 6     0.00e9
+4 4   260.10e9
+4 5     0.00e9
+4 6     0.00e9
+5 5   220.60e9
+5 6     0.00e9
+6 6   233.90e9
+7 7  4690.00
+# Fe6-Al4-Bgm from Table 1 of:
+# Fu, S., Yang, J., Tsujino, N., Okuchi, T., Purevjav, N., Lin, J.-F., 2019. Single-crystal elasticity of (Al,Fe)-bearing bridgmanite and seismic shear wave radial anisotropy at the topmost lower mantle. Earth and Planetary Science Letters 518, 116–126. https://doi.org/10.1016/j.epsl.2019.04.023
+#
+# Input by nowacki on NowackiMBP.local on Tue 28 May 2019 13:37:04 BST
