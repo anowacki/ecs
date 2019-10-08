@@ -1,0 +1,26 @@
+1 1  1252.00e9
+1 2   414.00e9
+1 3   325.00e9
+1 4     0.00e9
+1 5     0.00e9
+1 6     0.00e9
+2 2   929.00e9
+2 3   478.00e9
+2 4     0.00e9
+2 5     0.00e9
+2 6     0.00e9
+3 3  1233.00e9
+3 4     0.00e9
+3 5     0.00e9
+3 6     0.00e9
+4 4   277.00e9
+4 5     0.00e9
+4 6     0.00e9
+5 5   266.00e9
+5 6     0.00e9
+6 6   408.00e9
+7 7  5399.17
+# Oganov, A., Ono, S., 2004. Theoretical and experimental evidence for a post-perovskite phase of {MgSiO}$_3$ in {E}arth’s {D}$’’$ layer. Nature 430, 445–448. https://doi.org/10.1038/nature02701
+# GGA computations at 120 GPa (V = 123.5 A)
+#
+# Input by nowacki on NowackiMBP.local on Mon 29 Jul 2019 15:44:36 BST
