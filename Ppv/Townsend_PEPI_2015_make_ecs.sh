@@ -19,7 +19,6 @@ while read struct P c11 c22 c33 c44 c55 c66 c12 c13 c23 rho vp vs K G; do
 		*) { echo "Unexpected structure name \"$struct"\" >&2; exit 1; };;
 	esac
 	cat > "$file" <<-END
-	cat <<-END
 	1 1 ${c11}.e9
 	1 2 ${c12}.e9
 	1 3 ${c13}.e9
